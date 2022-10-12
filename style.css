@@ -1,0 +1,70 @@
+@import url("https://fonts.cdnfonts.com/css/basillion");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Basillion", sans-serif;
+}
+
+.intro {
+  height: 100vh;
+  background-color: rgb(179, 179, 179);
+  text-align: center;
+  background-image: url("./assets/img/bg1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.intro img {
+  max-width: 20%;
+}
+
+.intro h2 {
+  color: white;
+}
+
+.intro h3 {
+  color: rgb(192, 23, 214);
+  font-size: 4rem;
+}
+
+.about {
+  background-color: aquamarine;
+  height: fit-content;
+  background-image: url("./assets/img/rp2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about p {
+  width: 20%;
+  font-size: 7rem;
+  color: aliceblue;
+  text-shadow: 5px 5px 5px rgb(9, 109, 102);
+  margin-left: 5rem;
+}
+
+.pics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.pics img {
+  width: 50vw;
+}
+
+.picsp {
+  padding: 1rem 2rem;
+  width: 100%;
+  font-size: 2rem;
+  color: rgb(252, 127, 32);
+  text-shadow: 5px 5px 5px rgb(71, 99, 213);
+  text-align: center;
+}
